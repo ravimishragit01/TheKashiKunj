@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Kashi Kunj | Hotel, Cab & Boat Booking in Varanasi</title>
+<meta name="description" content="The Kashi Kunj - comfortable stay near the Ghats of Varanasi with cab and boat booking services.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <p>Most Trusted Stay, Cab & Boat Booking Partner in Varanasi &nbsp;|&nbsp; <a href="mailto:info@thekashikunj.com">info@thekashikunj.com</a></p>
+</header>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">The Kashi<span>Kunj</span></a>
+    <ul class="nav-links">
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#cabs">Cab Booking</a></li>
+      <li><a href="#boats">Boat Booking</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="btn-nav">Book Now</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>The Kashi Kunj</h1>
+    <p>Your comfortable home near the sacred Ghats of Varanasi — Stay, Cab & Boat all in one place.</p>
+    <a href="#rooms" class="btn-primary">Explore Rooms</a>
+  </div>
+</section>
+
+<section class="offer-strip">
+  <div class="offer-item">🏨 Comfortable Rooms</div>
+  <div class="offer-item">🚗 Cab Booking</div>
+  <div class="offer-item">🚤 Boat Booking</div>
+  <div class="offer-item">📍 Near Ganga Ghats</div>
+</section>
+
+<section class="section" id="rooms">
+  <h2>Our Rooms</h2>
+  <p class="section-sub">Comfortable stays with modern amenities, near the Ghats</p>
+  <div class="card-grid" id="roomsGrid">
+    <p class="loading">Loading rooms...</p>
+  </div>
+</section>
+
+<section class="section alt" id="cabs">
+  <h2>Cab Booking</h2>
+  <p class="section-sub">Reliable cabs for local sightseeing, airport transfer & outstation trips</p>
+  <div class="card-grid" id="cabsGrid">
+    <p class="loading">Loading cabs...</p>
+  </div>
+</section>
+
+<section class="section" id="boats">
+  <h2>Boat Booking</h2>
+  <p class="section-sub">Experience the Ganga like never before</p>
+  <div class="card-grid" id="boatsGrid">
+    <p class="loading">Loading boats...</p>
+  </div>
+</section>
+
+<section class="section alt" id="about">
+  <h2>About The Kashi Kunj</h2>
+  <p class="about-text">
+    The Kashi Kunj is a family-run hotel located near the ghats of Varanasi, offering
+    comfortable rooms, reliable cab services, and boat rides on the holy Ganga.
+    We aim to make every guest's stay in Kashi memorable, spiritual, and hassle-free.
+  </p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Book Now / Enquire</h2>
+  <p class="section-sub">Fill the form below and our team will contact you shortly</p>
+  <form id="bookingForm" class="booking-form">
+
+    <div class="form-row full">
+      <label>Booking For (select one or more)</label>
+      <div class="checkbox-group" id="svcTypeGroup">
+        <label class="chip"><input type="checkbox" name="svcType" value="room"> 🏨 Room</label>
+        <label class="chip"><input type="checkbox" name="svcType" value="cab"> 🚗 Cab</label>
+        <label class="chip"><input type="checkbox" name="svcType" value="boat"> 🚤 Boat</label>
+      </div>
+      <div id="selectedItemsBox" class="selected-items"></div>
+    </div>
+
+    <div class="form-row">
+      <label>Full Name *</label>
+      <input type="text" name="name" required>
+    </div>
+    <div class="form-row">
+      <label>Phone *</label>
+      <input type="tel" name="phone" required>
+    </div>
+    <div class="form-row">
+      <label>Email</label>
+      <input type="email" name="email">
+    </div>
+    <div class="form-row">
+      <label>Check-in / Travel Date</label>
+      <input type="date" name="checkIn">
+    </div>
+    <div class="form-row">
+      <label>Check-out Date</label>
+      <input type="date" name="checkOut">
+    </div>
+    <div class="form-row">
+      <label>Guests</label>
+      <input type="number" name="guests" min="1" value="1">
+    </div>
+    <div class="form-row full">
+      <label>Message</label>
+      <textarea name="message" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn-primary">Submit & Send via WhatsApp</button>
+    <p class="form-note">On submit, we save your request and open WhatsApp with a pre-filled message to our team.</p>
+    <p id="formMsg"></p>
+  </form>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <h3>The Kashi Kunj</h3>
+      <p>Near Ganga Ghats, Varanasi, Uttar Pradesh</p>
+      <p>+91 90000 00000</p>
+      <p>info@thekashikunj.com</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#rooms">Rooms</a><br>
+      <a href="#cabs">Cab Booking</a><br>
+      <a href="#boats">Boat Booking</a><br>
+      <a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Policies</h4>
+      <a href="#">Privacy Policy</a><br>
+      <a href="#">Terms & Conditions</a><br>
+      <a href="#">Cancellation & Refund</a>
+    </div>
+  </div>
+  <p class="copyright">© The Kashi Kunj 2026. All Rights Reserved.</p>
+</footer>
+
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
